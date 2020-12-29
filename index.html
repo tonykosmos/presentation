@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>presentation</title>
+		<style type="text/css">
+			p { text-align: left; }
+			.red {
+				color: #ff0000;
+			}
+			.flex {
+				justify-content: space-between;
+				display: flex;
+			}
+			.size {
+				font-size: 36px;
+				text-align: justify;
+			}
+		</style>
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<img src="./css/assets/Logo-google-marketing-platform-icon-vector-PNG.png" alt="">
+				</section>
+				<section>
+					<h4>Main features of Google Analytics</h4>
+					<br />
+					<p>- Supports many languages</p>
+					<p>- Universality</p>
+					<p>- Allows you to reflect the user's transition to the goal</p>
+					<p>- Flexible in using</p>
+				</section>
+				<section>
+					<h3>Stages of statistics processing</h3>
+					<img src="./css/assets/scheme.png" alt="">
+				</section>
+				<section>
+					<section>
+						<h4>Data types in Google Analytics</h4>
+						<img src="./css/assets/scheme2.png" alt="">	
+					</section>
+					<section>
+						<h4>Parameters examples</h4>
+						<br />
+						<p>- User's geolocation</p>
+						<p>- Users sources</p>
+						<p>- The popularity of pages and sections of the site</p>
+					</section>
+					<section>
+						<h4>ABC Metrics</h4>
+						<br />
+						<div class="flex">
+							<div>
+								<p>- <span class="red">A</span>cquisition</p>
+								<p>- <span class="red">B</span>ehavior</p>
+								<p>- <span class="red">C</span>onversions</p>
+							</div>
+							<img src="./css/assets/abc.png" alt="">
+						</div>
+					</section>
+				</section>
+				<section>
+					<h4>What else can we learn from Google Analytics reports?</h4>
+					<br />
+					<p>- Page loading speed</p>
+					<p>- Users actions on pages</p>
+					<p>- Device detection</p>
+					<p>- Percentage of conversions and sales</p>
+					<p>- The success of advertising channels</p>
+				</section>
+				<section>
+					<section>
+						<img src="./css/assets/google-analytics-4-4.jpg" alt="">
+					</section>
+					<section>
+						<img src="./css/assets/google-analytics-4-vs-universal-hotels.jpg" alt="">
+						<span class="size">Universal Analytics model vs Google Analytics 4 model</span>
+					</section>
+					<section>
+						<h4>Other features of Google Analytics 4</h4>
+						<br />
+						<p>- New statistics parameters</p>
+						<p>- Cross-platform tracking</p>
+						<p>- Analysis center</p>
+						<p>- Google Analytics 4 check in debug mode</p>
+					</section>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
